@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_create_date"
+    tools:ignore="InvalidNavigation">
+
+    <fragment
+        android:id="@+id/nav_create_date"
+        android:name="co.com.acercate.ui.createDate.CreateDateFragment"
+        android:label="@string/create_date"
+        tools:layout="@layout/fragment_create_date" />
+
+    <fragment
+        android:id="@+id/nav_assing_date"
+        android:name="co.com.acercate.ui.assignDate.AssignDateFragment"
+        android:label="@string/assign_date"
+        tools:layout="@layout/fragment_assign_date" />
+
+    <fragment
+        android:id="@+id/nav_my_dates"
+        android:name="co.com.acercate.ui.myDates.MyDateItemFragment"
+        android:label="@string/my_dates"
+        tools:layout="@layout/fragment_my_date_item_list" />
+
+    <fragment
+        android:id="@+id/nav_assigned_dates"
+        android:name="co.com.acercate.ui.assignedDatesList.AssignedDatesFragment"
+        android:label="@string/assigned_date"
+        tools:layout="@layout/fragment_assigned_dates_list" />
+</navigation>

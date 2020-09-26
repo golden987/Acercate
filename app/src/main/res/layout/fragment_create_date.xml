@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.createDate.CreateDateFragment">
+
+        <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+
+            <DatePicker
+                android:id="@+id/dpDateOfDate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:datePickerMode="spinner"
+                android:calendarViewShown="false"/>
+
+
+            <EditText
+                android:id="@+id/etDatesQuantity"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="number"
+                android:hint="@string/dates_quantity"
+                android:textAlignment="center"/>
+
+            <EditText
+                android:id="@+id/etDateDesciption"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:gravity="start|top"
+                android:inputType="textMultiLine"
+                android:hint="@string/date_description"
+                tools:ignore="RtlCompat,TextFields"
+                android:textAlignment="center"/>
+
+            <Button
+                android:id="@+id/btCreateDate"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/create_date_disponibility" />
+        </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

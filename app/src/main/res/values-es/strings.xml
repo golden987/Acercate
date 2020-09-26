@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Acercate</string>
+    <string name="register">Registrate</string>
+    <string name="forgotpass">Recuperar contraseña</string>
+    <string name="login">Ingresar</string>
+    <string name="email">Correo</string>
+    <string name="password">Contraseña</string>
+    <string name="remember">Recordarme</string>
+    <string name="user">Usuario</string>
+    <string name="pass">Contraseña</string>
+    <string name="re_pass">Repetir contraseña</string>
+    <string name="id">Documento</string>
+    <string name="back">Regresar</string>
+    <string name="loading">Cargando…</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Nombre de usuario</string>
+    <string name="nav_header_subtitle">Rol</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_logout">Cerrar sesion</string>
+    <string name="create_date">Crear cita</string>
+    <string name="provider_suscription">Suscripcion a prestador</string>
+    <string name="assign_date">Seleccionar cita</string>
+    <string name="my_dates">Mis citas</string>
+    <string name="assigned_date">Citas asignadas</string>
+    <string name="provider">Prestador</string>
+    <string name="exit">Cerrar app</string>
+    <string name="Error">"Error: "</string>
+    <string name="date_description">Descripocion de la cita</string>
+    <string name="create_date_disponibility">Crear disponibilidad</string>
+    <string name="date">Date</string>
+    <string name="dates_quantity">Cantidad disponible de citas</string>
+
+</resources>
